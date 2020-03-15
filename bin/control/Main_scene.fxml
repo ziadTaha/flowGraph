@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="756.0" prefWidth="981.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.FirstSceneController">
+   <children>
+      <Label layoutX="31.0" layoutY="29.0" prefHeight="54.0" prefWidth="347.0" text="pathes , Gain , Delta">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="pathsAreaText" layoutX="31.0" layoutY="83.0" prefHeight="179.0" prefWidth="585.0" />
+      <Label layoutX="31.0" layoutY="273.0" prefHeight="47.0" prefWidth="305.0" text="Loops , Gain">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="loops" layoutX="31.0" layoutY="320.0" prefHeight="166.0" prefWidth="585.0" />
+      <Label layoutX="661.0" layoutY="33.0" prefHeight="47.0" prefWidth="205.0" text="NonTouchLoop">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="non_touchArea" layoutX="654.0" layoutY="80.0" prefHeight="408.0" prefWidth="305.0" />
+      <Label layoutX="31.0" layoutY="509.0" prefHeight="47.0" prefWidth="149.0" text="Overall Gain">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="gainTextArea" layoutX="31.0" layoutY="556.0" prefHeight="100.0" prefWidth="598.0" />
+      <Button fx:id="draw_button" layoutX="820.0" layoutY="692.0" mnemonicParsing="false" onAction="#showGraphScene" prefHeight="31.0" prefWidth="108.0" text="Draw" />
+   </children>
+</AnchorPane>
